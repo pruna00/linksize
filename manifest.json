@@ -3,7 +3,7 @@
     "name": "Link Size",
     "description": "Adds a context menu entry for links, returning size and last modified date",
     "author": "Pruna",
-    "version": "1.3",
+    "version": "1.4",
 
     "icons": {
         "16": "icon.svg",

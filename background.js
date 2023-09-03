@@ -1,9 +1,7 @@
-browser.runtime.onInstalled.addListener(function () {
-    browser.contextMenus.create({
-        id: "link-size",
-        title: "Link Size",
-        contexts: ["link"],
-    });
+browser.contextMenus.create({
+    id: "link-size",
+    title: "Link Size",
+    contexts: ["link"],
 });
 
 browser.contextMenus.onClicked.addListener(get_link_meta);
